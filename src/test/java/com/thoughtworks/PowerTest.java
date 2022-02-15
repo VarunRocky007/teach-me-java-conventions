@@ -3,24 +3,50 @@ package com.thoughtworks;
 
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 public class PowerTest {
     @Test
     public void givenOneRaisedOneWhenCalculatedShouldEquateToOne() {
-        assert Power.of(1,1) == 1;
+        int base = 1;
+        int power = 1;
+
+        int actualResult = Power.of(base,power);
+        int expectedResult = 1;
+
+        assertEquals(actualResult,expectedResult);
     }
 
     @Test
     public void givenTwoRaisedOneWhenCalculatedShouldEquateToTwo() {
-        assert Power.of(2,1) == 2;
+        int base = 2;
+        int power = 1;
+
+        int actualResult = Power.of(base,power);
+        int expectedResult = 2;
+
+        assertEquals(actualResult,expectedResult);
     }
 
     @Test
     public void givenTwoRaisedTwoWhenCalculatedShouldEquateToFour() {
-        assert Power.of(2, 2) == 4;
+        int base = 2;
+        int power = 2;
+
+        int actualResult = Power.of(base,power);
+        int expectedResult = 4;
+
+        assertEquals(actualResult,expectedResult);
     }
 
     @Test
-    public void givenTwoRaisedThreeWhenCalculatedShouldEquateToSix() {
-        assert Power.of(3, 2) == 3*3;
+    public void givenTwoRaisedThreeWhenCalculatedShouldEquateToEight() {
+        int base = 2;
+        int power = 3;
+
+        int actualResult = Power.of(base,power);
+        int expectedResult = 8;
+
+        assertEquals(actualResult,expectedResult);
     }
 }
