@@ -1,11 +1,11 @@
 package com.thoughtworks;
 
 public class Power {
-    public static int of(int xyz, int pqr) {
-        int p = 1;
-        for (int i = 0; i<pqr; i++) {
-            p *= xyz;
+    public static int of(int base, int power) {
+        int result = 1;
+        for (int index = 0; index<power; index++) {
+            result *= base;
         }
-        return p;
+        return result;
     }
 }
