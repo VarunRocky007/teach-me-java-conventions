@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thoughtworks.PowerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-02-15T10:08:32" hostname="VARUN-PC7701" time="0.002">
+  <properties/>
+  <testcase name="power_of_2_and_3_Is_SIX" classname="com.thoughtworks.PowerTest" time="0.001"/>
+  <testcase name="two_power_2_is_4" classname="com.thoughtworks.PowerTest" time="0.0"/>
+  <testcase name="one_raised_to_one_is_onew" classname="com.thoughtworks.PowerTest" time="0.0"/>
+  <testcase name="twoRaised_to_one_is_2" classname="com.thoughtworks.PowerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
